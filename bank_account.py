@@ -1,7 +1,7 @@
 # bank_account.py
 balance = 0
 
-while True:
+while True: 
     print(f"\nBalance: ${balance}")
     print("1. Deposit\n2. Withdraw\n3. Exit")
     choice = input("Choose an option: ")
