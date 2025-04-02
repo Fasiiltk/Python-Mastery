@@ -3,7 +3,7 @@ balance = 0
 
 while True:
     print(f"\nBalance: ${balance}")
-    print("1. Deposit\n2. Withdraw\n3. Exit")
+    print("1. Deposit\n2. Withdraw\n3. Exit") 
     choice = input("Choose an option: ")
     if choice == "1":
         amount = float(input("Enter amount: "))
